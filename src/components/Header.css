@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    color: black;
+    width: 100vw;
+    box-shadow: 0px 4px 2px -2px rgb(154, 149, 149);
+    position: relative;
+    padding-bottom: 10px;
+}
+
+header::after {
+    content: ""; /* Necessary for pseudo-elements */
+    position: absolute; /*Position relative to the header */
+    left: 0;
+    right: 0;
+    width: 100vw;
+    bottom: 0;
+    height: 2px; /* Height of the bottom line */
+    background-color: rgb(182, 182, 182); /* Color of the bottom line */
+  }
